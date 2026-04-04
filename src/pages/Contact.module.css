@@ -1,0 +1,47 @@
+.hero {
+    background-color: #aaa;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.hero p {
+    font-size: 1.0rem;
+    color: #fff;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 50px auto;
+    padding: 10px;
+    gap: 10px;
+}
+
+.contactForm input,
+.contactForm textarea {
+    padding: 6px;
+}
+
+.contactForm button {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.errorMessage {
+    font-size: 0.8rem;
+    color: #f00;
+}
+
+/* 利用せず、別の方法で表示を制御。
+.errorMessage.show {
+    display: block;
+} */

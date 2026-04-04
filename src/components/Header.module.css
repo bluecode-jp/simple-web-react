@@ -1,0 +1,25 @@
+.header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header ul {
+    display: flex;
+}
+
+.header li {
+    list-style: none;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.header a:hover {
+    color: #aaa;
+}

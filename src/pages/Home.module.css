@@ -1,0 +1,62 @@
+.hero {
+    background-color: #aaa;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.hero p {
+    font-size: 1.0rem;
+    color: #fff;
+}
+
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+.service {
+    background-color: #aaa;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service h2 {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.service p {
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+/* レスポンシブレイアウト */
+
+@media (max-width: 700px) {
+
+    .services {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .service {
+        height: 120px;
+        width: 80%;
+    }
+
+}
