@@ -24,7 +24,7 @@ function Contact() {
         // alert(`title=${data.title}, email=${data.email}, message=${data.message}`);
 
         // API連携
-        const api_url = "http://localhost:3000/contacts";
+        const api_url = "http://localhost:3333/contacts";
 
         try {
             // API問い合wせ
